@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
+import Emailbuilder from './Emailbuilder';
 import Contact from './Contact';
 
 class App extends Component {
@@ -14,12 +15,14 @@ class App extends Component {
           <ul className="navbar-nav mr-auto">
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
             <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
+            <li><Link to={'/emailbuilder'} className="nav-link">Email Builder</Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
           </ul>
           </nav>
           <hr />
           <Switch>
               <Route exact path='/' component={Home} />
+              <Route path='/emailbuilder' component={Emailbuilder} />
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
           </Switch>
