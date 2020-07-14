@@ -53,8 +53,87 @@ class Emailbuilder extends Component {
     }
 
     onLoad = () => {
-        //const json = 'design'
-         //   this.editor.loadDesign(json)
+        const json = {"counters": {
+                "u_column": 1,
+                "u_row": 1
+            },
+            "body": {
+                "rows": [
+                    {
+                        "cells": [
+                            1
+                        ],
+                        "columns": [
+                            {
+                                "contents": [],
+                                "values": {
+                                    "backgroundColor": "",
+                                    "padding": "0px",
+                                    "border": {},
+                                    "_meta": {
+                                        "htmlID": "u_column_1",
+                                        "htmlClassNames": "u_column"
+                                    }
+                                }
+                            }
+                        ],
+                        "values": {
+                            "columns": false,
+                            "backgroundColor": "",
+                            "columnsBackgroundColor": "",
+                            "backgroundImage": {
+                                "url": "",
+                                "fullWidth": true,
+                                "repeat": false,
+                                "center": true,
+                                "cover": false
+                            },
+                            "padding": "0px",
+                            "hideDesktop": false,
+                            "hideMobile": false,
+                            "noStackMobile": false,
+                            "_meta": {
+                                "htmlID": "u_row_1",
+                                "htmlClassNames": "u_row"
+                            },
+                            "selectable": true,
+                            "draggable": true,
+                            "duplicatable": true,
+                            "deletable": true
+                        }
+                    }
+                ],
+                "values": {
+                    "backgroundColor": "#ffffff",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "contentWidth": "600px",
+                    "fontFamily": {
+                        "label": "Arial",
+                        "value": "arial,helvetica,sans-serif"
+                    },
+                    "linkStyle": {
+                        "body": true,
+                        "inherit": false,
+                        "linkColor": "#ff9933",
+                        "linkUnderline": true,
+                        "linkHoverColor": "#0000ee",
+                        "linkHoverUnderline": true
+                    },
+                    "_meta": {
+                        "htmlID": "u_body",
+                        "htmlClassNames": "u_body"
+                    }
+                }
+            },
+            "schemaVersion": 4
+        }
+            this.editor.loadDesign(json)
     }
 }
 export default Emailbuilder;
