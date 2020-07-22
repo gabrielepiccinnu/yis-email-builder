@@ -25,7 +25,7 @@ class Emailbuilder extends Component {
                 <h2>Email Builder</h2>
                 <button onClick={this.saveDesign}>Salva Design</button>
                 <button onClick={this.exportHtml}>Copia HTML negli appunti</button>
-             s
+             
 
                 <EmailEditor
                     minHeight='800px'    
