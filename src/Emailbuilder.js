@@ -3,6 +3,19 @@ import React, { useRef, Component } from 'react';
 
 import EmailEditor from 'react-email-editor';
 
+
+import yisTemplate from './templates/yis-test.json';
+
+
+//import Button from 'react-bootstrap/Button';
+import { Button,Accordion,Card } from 'react-bootstrap';
+
+
+//import ReactDOM from 'react-dom';
+//import {CopyToClipboard} from 'react-copy-to-clipboard';
+
+ 
+
 class Emailbuilder extends Component {
  
 
@@ -14,6 +27,8 @@ class Emailbuilder extends Component {
     };
 
     onLoad = () => {
+      //  this.editor.loadDesign(yisTemplate);
+      //  console.log('TemplateDesign', yisTemplate);
         // you can load your template here;
         // const templateJson = {};
         // emailEditorRef.current.editor.loadDesign(templateJson);
@@ -21,11 +36,15 @@ class Emailbuilder extends Component {
 
     render() {
         return (
-            <div>
-                <h2>Email Builder</h2>
-                <button onClick={this.saveDesign}>Salva Design</button>
-                <button onClick={this.exportHtml}>Copia HTML negli appunti</button>
-             
+            <div className="container-fluid">
+                <button onClick={this.saveDesign} className="btn btn-primary mr-3">Esporta Design</button>
+                <button onClick={this.exportHtml} className="btn btn-primary">Esporta HTML</button>
+                <button onClick={this.downloadJsonFile} className="btn btn-primary d-none">Scarica file design .json</button>
+                <div class="form-group">
+                   <label for=""></label>
+                    <textarea class="form-control" name="" id="jsoncode" rows="3"></textarea>
+                    </div>
+                                  
 
                 <EmailEditor
                     minHeight='800px'    
@@ -33,28 +52,48 @@ class Emailbuilder extends Component {
                     ref={editor => this.editor = editor}
                     onLoad={this.onLoad}
                 />
+
+
+               
+ 
             </div>
-        );
+
+
+         );
     }
+
+    
     saveDesign = () => {
         this.editor.saveDesign(design => {
             console.log('saveDesign', design);
-            //copy(design)
-            alert('Il Design JSON è in console.');
+           // copy(JSON.stringify(design));
+            var designjson = JSON.stringify(design, null, 4)
+
+            document.getElementById('jsoncode').value = designjson
+            //prompt("Copia il codice JSON contenuto nel seguente campo testo", JSON.stringify(design));
+            //alert('Il Design JSON è in console.');
 
         })
     }
 
+
+    
     exportHtml = () => {
         this.editor.exportHtml(data => {
             const { design, html } = data
             console.log('exportHtml', html);
-            alert('L\'output HTML è stato copiato negli appunti.');
+            prompt("Copia il codice HTML contenuto nel seguente campo testo", html);
+            //alert('L\'output HTML è stato copiato negli appunti.');
 
         })
     }
 
+
     onLoad = () => {
+
+        this.editor.loadDesign(yisTemplate);
+        console.log('TemplateDesign', yisTemplate);
+
         const json = {"counters": {
                 "u_column": 1,
                 "u_row": 1
@@ -135,7 +174,7 @@ class Emailbuilder extends Component {
             },
             "schemaVersion": 4
         }
-            this.editor.loadDesign(json)
+           // this.editor.loadDesign(json)
     }
 }
 export default Emailbuilder;

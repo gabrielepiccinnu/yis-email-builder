@@ -1,0 +1,132 @@
+import React, { useState, Component } from 'react';
+//import { render } from 'react-dom'
+
+import EmailEditor from 'react-email-editor';
+
+
+import yisTemplate from './templates/yis-test.json';
+
+
+//import Button from 'react-bootstrap/Button';
+import { Modal,Button,Accordion,Card } from 'react-bootstrap';
+
+
+//import ReactDOM from 'react-dom';
+//import {CopyToClipboard} from 'react-copy-to-clipboard';
+
+ 
+
+class Emailbuilder extends Component {
+ 
+
+    exportHtml = () => {
+        /*   emailEditorRef.current.editor.exportHtml((data) => {
+             const { design, html } = data;
+             console.log('exportHtml', html);
+           });*/
+    };
+ 
+
+    
+    constructor() { super()
+        //const [show, setShow] = useState(false);
+        this.state = {show:false}
+        this.handleClose = this.handleClose.bind(this);
+        this.handleShow = this.handleShow.bind(this);
+        
+    }
+    setShow(setShowVar) {
+        this.setState({show:setShowVar})
+    
+    }
+
+    handleClose() {this.setShow(false)};
+    handleShow() {this.setShow(true)};
+
+    render() {
+ 
+       
+
+        return (
+            <div className="container-fluid">
+                <button onClick={this.saveDesign} className="btn btn-primary">Esporta Design</button>
+                <button onClick={this.exportHtml} className="btn btn-primary">Esporta HTML</button>
+                <button onClick={this.downloadJsonFile} className="btn btn-primary">Scarica file design .json</button>
+             
+                <Button variant="primary" onClick={this.handleShow}>Esporta Design (.json)</Button>
+                <EmailEditor
+                    minHeight='800px'    
+                    locale='it'
+                    ref={editor => this.editor = editor}
+                    onLoad={this.onLoad}
+                />
+
+
+
+      <Modal
+        show={this.state.show}
+        onHide={this.handleClose}
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header closeButton>
+          <Modal.Title>JSON Email</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+        <textarea className="w-100" id="JSONCode"></textarea>
+
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={this.handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
+      
+             
+               
+ 
+            </div>
+
+
+         );
+    }
+
+    
+    saveDesign = () => {
+        this.editor.saveDesign(design => {
+            console.log('saveDesign', design);
+           // copy(JSON.stringify(design));
+            var designjson = JSON.stringify(design, null, 4)
+
+            document.getElementById('JSONCode').value = designjson
+            
+            //prompt("Copia il codice JSON contenuto nel seguente campo testo", JSON.stringify(design));
+            //alert('Il Design JSON è in console.');
+
+        })
+    }
+
+
+    
+    exportHtml = () => {
+        this.editor.exportHtml(data => {
+            const { design, html } = data
+            console.log('exportHtml', html);
+            prompt("Copia il codice HTML contenuto nel seguente campo testo", html);
+            //alert('L\'output HTML è stato copiato negli appunti.');
+
+        })
+    }
+
+
+    onLoad = () => {
+
+        this.editor.loadDesign(yisTemplate);
+        console.log('TemplateDesign', yisTemplate);
+
+        
+           // this.editor.loadDesign(json)
+    }
+}
+export default Emailbuilder;

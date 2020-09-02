@@ -4,6 +4,7 @@ import Home from './Home';
 import About from './About';
 import Emailbuilder from './Emailbuilder';
 import Contact from './Contact';
+import TestBoot from './TestBoot';
 
 class App extends Component {
   render() {
