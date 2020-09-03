@@ -4,7 +4,8 @@ import Home from './Home';
 import About from './About';
 import Emailbuilder from './Emailbuilder';
 import Contact from './Contact';
-import TestBoot from './TestBoot';
+//import TestBoot from './TestBoot';
+import Emailbuilderit from './Emailbuilder-it';
 
 class App extends Component {
   render() {
@@ -15,8 +16,8 @@ class App extends Component {
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <ul className="navbar-nav mr-auto">
             <li><Link to={'/'} className="nav-link"> Home </Link></li>
-            <li><Link to={'/contact'} className="nav-link">Contact</Link></li>
-            <li><Link to={'/emailbuilder'} className="nav-link">Email Builder</Link></li>
+             <li><Link to={'/emailbuilder'} className="nav-link">Email Builder</Link></li>
+            <li><Link to={'/emailbuilder-template-ita'} className="nav-link">Email Builder - Template ITA</Link></li>
             <li><Link to={'/about'} className="nav-link">About</Link></li>
           </ul>
           </nav>
@@ -24,6 +25,7 @@ class App extends Component {
           <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/emailbuilder' component={Emailbuilder} />
+              <Route path='/emailbuilder-template-ita' component={Emailbuilderit} />
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
           </Switch>

@@ -1,0 +1,718 @@
+{
+    "counters": {
+        "u_column": 12,
+        "u_row": 9,
+        "u_content_image": 9,
+        "u_content_button": 1,
+        "u_content_text": 3
+    },
+    "body": {
+        "rows": [
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_3",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138475832-header.png",
+                                        "width": 4605,
+                                        "height": 569
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "attrs": {
+                                            "href": "{{href}}",
+                                            "target": "{{target}}"
+                                        },
+                                        "values": {
+                                            "href": "https://www.yachtinginsardinia.com/it/",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_1",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_1",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_text_1",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "color": "#000000",
+                                    "textAlign": "left",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false,
+                                    "text": "<p style=\"font-size: 14px; line-height: 140%; text-align: center;\"><span style=\"font-size: 10px; line-height: 14px; font-family: Lato, sans-serif; color: #cccccc;\">5 Settembre 2020&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; newsletter quindicinale n.17 di 26</span></p>",
+                                    "_override": {
+                                        "mobile": {
+                                            "hideMobile": true
+                                        }
+                                    }
+                                }
+                            },
+                            {
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_text_2",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "color": "#000000",
+                                    "textAlign": "left",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": true,
+                                    "hideMobile": false,
+                                    "text": "<p style=\"font-size: 14px; line-height: 140%; text-align: center;\"><span style=\"font-size: 10px; line-height: 14px; font-family: Lato, sans-serif; color: #cccccc;\">5 Settembre 2020&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;newsletter quindicinale n.17 di 26</span></p>",
+                                    "_override": {
+                                        "mobile": {
+                                            "hideMobile": false
+                                        }
+                                    }
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_2",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_2",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_9",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_9",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_5",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138681246-footer.png",
+                                        "width": 590,
+                                        "height": 66
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "values": {
+                                            "href": "",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_8",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_8",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_6",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138726110-fb.png",
+                                        "width": 36,
+                                        "height": 36
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "attrs": {
+                                            "href": "{{href}}",
+                                            "target": "{{target}}"
+                                        },
+                                        "values": {
+                                            "href": "https://www.facebook.com/yachtinginsardinia/",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_7",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    },
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_7",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138781904-tw.png",
+                                        "width": 36,
+                                        "height": 36
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "attrs": {
+                                            "href": "{{href}}",
+                                            "target": "{{target}}"
+                                        },
+                                        "values": {
+                                            "href": "https://twitter.com/yis_charter",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_10",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    },
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_8",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138840291-ig.png",
+                                        "width": 36,
+                                        "height": 36
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "attrs": {
+                                            "href": "{{href}}",
+                                            "target": "{{target}}"
+                                        },
+                                        "values": {
+                                            "href": "https://www.instagram.com/yachtinginsardinia/",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_11",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    },
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_9",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138901661-vimeo.png",
+                                        "width": 36,
+                                        "height": 36
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "attrs": {
+                                            "href": "{{href}}",
+                                            "target": "{{target}}"
+                                        },
+                                        "values": {
+                                            "href": "https://www.youtube.com/channel/UCHp4kLeAs8lEqIH_sCcPimw",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_12",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_7",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "text",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_text_3",
+                                        "htmlClassNames": "u_content_text"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "color": "#000000",
+                                    "textAlign": "left",
+                                    "lineHeight": "140%",
+                                    "linkStyle": {
+                                        "inherit": true,
+                                        "linkColor": "#0000ee",
+                                        "linkHoverColor": "#0000ee",
+                                        "linkUnderline": true,
+                                        "linkHoverUnderline": true
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false,
+                                    "text": "<p style=\"font-size: 14px; line-height: 140%; text-align: center;\"><span style=\"font-family: Lato, sans-serif; font-size: 14px; line-height: 19.6px; color: #888888;\">&copy; 2020 Yachting in Sardinia</span></p>"
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_5",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_5",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            },
+            {
+                "cells": [
+                    1
+                ],
+                "columns": [
+                    {
+                        "contents": [
+                            {
+                                "type": "image",
+                                "values": {
+                                    "containerPadding": "10px",
+                                    "_meta": {
+                                        "htmlID": "u_content_image_4",
+                                        "htmlClassNames": "u_content_image"
+                                    },
+                                    "selectable": true,
+                                    "draggable": true,
+                                    "duplicatable": true,
+                                    "deletable": true,
+                                    "src": {
+                                        "url": "https://unroll-images-production.s3.amazonaws.com/projects/0/1599138630457-footer2.png",
+                                        "width": 200,
+                                        "height": 163
+                                    },
+                                    "textAlign": "center",
+                                    "altText": "Image",
+                                    "action": {
+                                        "name": "web",
+                                        "values": {
+                                            "href": "",
+                                            "target": "_blank"
+                                        }
+                                    },
+                                    "hideDesktop": false,
+                                    "hideMobile": false
+                                }
+                            }
+                        ],
+                        "values": {
+                            "backgroundColor": "",
+                            "padding": "0px",
+                            "border": {},
+                            "_meta": {
+                                "htmlID": "u_column_6",
+                                "htmlClassNames": "u_column"
+                            }
+                        }
+                    }
+                ],
+                "values": {
+                    "columns": false,
+                    "displayCondition": null,
+                    "backgroundColor": "",
+                    "columnsBackgroundColor": "",
+                    "backgroundImage": {
+                        "url": "",
+                        "fullWidth": true,
+                        "repeat": false,
+                        "center": true,
+                        "cover": false
+                    },
+                    "padding": "0px",
+                    "hideDesktop": false,
+                    "hideMobile": false,
+                    "noStackMobile": false,
+                    "_meta": {
+                        "htmlID": "u_row_6",
+                        "htmlClassNames": "u_row"
+                    },
+                    "selectable": true,
+                    "draggable": true,
+                    "duplicatable": true,
+                    "deletable": true
+                }
+            }
+        ],
+        "values": {
+            "backgroundColor": "#ffffff",
+            "backgroundImage": {
+                "url": "",
+                "fullWidth": true,
+                "repeat": false,
+                "center": true,
+                "cover": false
+            },
+            "contentWidth": "600px",
+            "fontFamily": {
+                "label": "Arial",
+                "value": "arial,helvetica,sans-serif"
+            },
+            "linkStyle": {
+                "body": true,
+                "linkColor": "#ff9933",
+                "linkHoverColor": "#0000ee",
+                "linkUnderline": true,
+                "linkHoverUnderline": true,
+                "inherit": false
+            },
+            "_meta": {
+                "htmlID": "u_body",
+                "htmlClassNames": "u_body"
+            }
+        }
+    },
+    "schemaVersion": 5
+}
