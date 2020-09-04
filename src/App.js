@@ -4,12 +4,15 @@ import Home from './Home';
 import About from './About';
 import Emailbuilder from './Emailbuilder';
 import Contact from './Contact';
+import TestMenu from './TestMenu';
 //import TestBoot from './TestBoot';
 import Emailbuilderit from './Emailbuilder-it';
+import Layout from "./components/Layout";
 
 class App extends Component {
   render() {
     return (
+      <Layout>
     <Router>
         <div>
           <h2>YiS - Email builder</h2>
@@ -28,9 +31,11 @@ class App extends Component {
               <Route path='/emailbuilder-template-ita' component={Emailbuilderit} />
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
+              <Route path='/testmenu' component={TestMenu} />
           </Switch>
         </div>
       </Router>
+      </Layout>
     );
   }
 }
