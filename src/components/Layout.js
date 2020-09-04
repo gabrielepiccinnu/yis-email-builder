@@ -1,5 +1,6 @@
 import React from 'react';
-export { Container } from 'bootstrap';
+import Container from 'bootstrap';
+//export { Layout } from 'bootstrap';
 
 export const Layout = (props) => (
     <Container>

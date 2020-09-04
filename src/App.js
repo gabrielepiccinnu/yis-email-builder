@@ -7,12 +7,13 @@ import Contact from './Contact';
 import TestMenu from './TestMenu';
 //import TestBoot from './TestBoot';
 import Emailbuilderit from './Emailbuilder-it';
-import Layout from "./components/Layout";
+import {Layout} from "./components/Layout";
+
 
 class App extends Component {
   render() {
     return (
-      <Layout>
+    
     <Router>
         <div>
           <h2>YiS - Email builder</h2>
@@ -35,7 +36,7 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
-      </Layout>
+    
     );
   }
 }
