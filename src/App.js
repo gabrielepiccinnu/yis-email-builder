@@ -9,6 +9,7 @@ import TestMenu from './TestMenu';
 import Emailbuilderit from './Emailbuilder-it';
 import Emailbuilderit11092020 from './Emailbuilder-it-11092020';
 import Emailbuilderit25092020 from './Emailbuilder-it-25092020';
+import Emailbuilderit02102020 from './Emailbuilder-it-02102020';
 import {Layout} from "./components/Layout";
 
 
@@ -34,6 +35,7 @@ class App extends Component {
               <Route path='/emailbuilder-template-ita' component={Emailbuilderit} />
               <Route path='/emailbuilder-template-ita-11092020' component={Emailbuilderit11092020} />
               <Route path='/emailbuilder-template-ita-25092020' component={Emailbuilderit25092020} />
+              <Route path='/emailbuilder-template-ita-02102020' component={Emailbuilderit02102020} />
               <Route path='/contact' component={Contact} />
               <Route path='/about' component={About} />
               <Route path='/testmenu' component={TestMenu} />
