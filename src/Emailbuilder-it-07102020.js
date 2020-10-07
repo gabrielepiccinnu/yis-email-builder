@@ -4,7 +4,7 @@ import React, { useRef, Component } from 'react';
 import EmailEditor from 'react-email-editor';
 
 
-import yisTemplate from './templates/yis-template-it-25092020.json';
+import yisTemplate from './templates/yis-template-it-07102020.json';
 
 
 //import Button from 'react-bootstrap/Button';
